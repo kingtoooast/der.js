@@ -1,21 +1,21 @@
-# Neb.js
+# Der.js
 
-Neb.js - A package to create Discord bots easily.
+Der.js - A package to create Discord bots easily.
 
 ## Installation
 
-To install neb.js use:
+To install der.js use:
 
 ```sh
-npm install neb.js
+npm install der.js
 ```
 
 ## Example
 
 ```js
-const NebClient = require('neb.js');
+const DerClient = require('der.js');
 
-const client = new NebClient({
+const client = new DerClient({
   token: 'your bot token here',
   prefix: 'you bot prefix here',
   intents: ['Guilds', 'GuildMessages', 'MessageContent']
