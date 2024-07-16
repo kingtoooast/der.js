@@ -1,14 +1,27 @@
 {
-  "name": "neb",
+  "name": "der.js",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A package to create Discord bots easily!",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingtoooast/der.js.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discord.js",
+    "der.js"
+  ],
+  "author": "kingtoooast",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kingtoooast/der.js/issues"
+  },
+  "homepage": "https://github.com/kingtoooast/der.js#readme",
   "dependencies": {
     "discord.js": "^14.15.3"
   }
